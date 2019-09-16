@@ -4,7 +4,7 @@ import { BaseComponent } from './core/base.component';
 
 
 const routes: Routes = [
-  { path: '', component: BaseComponent },
+  { path: '', component: BaseComponent},
   { path: '**', pathMatch: 'full', redirectTo: '' }
 ];
 @NgModule({
